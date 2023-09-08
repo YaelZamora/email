@@ -11,6 +11,9 @@
 		7E5B3E9D2A251F4500443313 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B3E9C2A251F4500443313 /* ContentView.swift */; };
 		7E5B3E9F2A251F4700443313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B3E9E2A251F4700443313 /* Assets.xcassets */; };
 		7E5B3EA22A251F4700443313 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B3EA12A251F4700443313 /* Preview Assets.xcassets */; };
+		7E5B3EA92A251F6900443313 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B3EA82A251F6900443313 /* HomeView.swift */; };
+		7E5B3EAB2A251F7400443313 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B3EAA2A251F7400443313 /* MailView.swift */; };
+		7E5B3EAD2A2521F800443313 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B3EAC2A2521F800443313 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		7E5B3E9C2A251F4500443313 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E5B3E9E2A251F4700443313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5B3EA12A251F4700443313 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E5B3EA82A251F6900443313 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7E5B3EAA2A251F7400443313 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		7E5B3EAC2A2521F800443313 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				7E5B3E9A2A251F4500443313 /* EmailApp.swift */,
 				7E5B3E9C2A251F4500443313 /* ContentView.swift */,
+				7E5B3EAC2A2521F800443313 /* Constants.swift */,
+				7E5B3EAA2A251F7400443313 /* MailView.swift */,
+				7E5B3EA82A251F6900443313 /* HomeView.swift */,
 				7E5B3E9E2A251F4700443313 /* Assets.xcassets */,
 				7E5B3EA02A251F4700443313 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5B3EAD2A2521F800443313 /* Constants.swift in Sources */,
+				7E5B3EA92A251F6900443313 /* HomeView.swift in Sources */,
 				7E5B3E9D2A251F4500443313 /* ContentView.swift in Sources */,
 				7E5B3E9B2A251F4500443313 /* EmailApp.swift in Sources */,
+				7E5B3EAB2A251F7400443313 /* MailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

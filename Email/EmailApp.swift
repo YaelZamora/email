@@ -11,7 +11,7 @@ import SwiftUI
 struct EmailApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
